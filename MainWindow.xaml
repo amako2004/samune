@@ -1,0 +1,20 @@
+﻿<Window x:Class="samune.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:samune"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textbox_url" HorizontalAlignment="Left" Height="44" Margin="34,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" TextChanged="TextBox_TextChanged"/>
+        <Button Content="フォルダ選択" HorizontalAlignment="Left" Margin="228,110,0,0" VerticalAlignment="Top" Width="175" Height="37" Click="Button_Click"/>
+        <TextBox x:Name="textbox_path" HorizontalAlignment="Left" Height="37" Margin="34,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="175" TextChanged="TextBox_TextChanged_1"/>
+        <Button Content="保存" HorizontalAlignment="Left" Margin="408,110,0,0" VerticalAlignment="Top" Width="75" Height="37" Click="Button_Click_1"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="190,110,0,0" VerticalAlignment="Top" Width="19" Height="37" SelectionChanged="comboBox_SelectionChanged" RenderTransformOrigin="1.269,3.684"/>
+        <Button x:Name="button_image" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="449" Margin="34,375,0,0" Click="Button_Click_2"/>
+        <Image x:Name="image_url" Height="200" Margin="34,159,309,0" Width="449" VerticalAlignment="Top"/>
+        <TextBox x:Name="textbox_check" HorizontalAlignment="Left" Height="23" Margin="548,52,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
